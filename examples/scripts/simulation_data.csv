@@ -1,0 +1,13 @@
+file location,pdb code,ligand code,smiles
+1W0E-1PQ2-docked-complex.pdb,1PQ2,PLM,CCCCCCCCCCCCCCCC(=O)O
+1W0E-1R9O-docked-complex.pdb,1R9O,FLP,CC(c1ccc(c(c1)F)c2ccccc2)C(=O)O
+1W0E-1W0F-docked-complex.pdb,1W0F,STR,CC(=O)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C
+1W0E-1W0G-docked-complex.pdb,1W0G,MYT,CC(C)(c1cccnc1)C(=O)c2cccnc2
+1W0E-1Z10-docked-complex.pdb,1Z10,COU,c1ccc2c(c1)C=CC(=O)O2
+1W0E-1Z11-docked-complex.pdb,1Z11,8MO,COc1c2c(cco2)cc3c1OC(=O)C=C3
+1W0E-2FDU-docked-complex.pdb,2FDU,D1G,CN(C)Cc1ccc(o1)c2cccnc2
+1W0E-2FDV-docked-complex.pdb,2FDV,D2G,CNCc1ccc(o1)c2cccnc2
+1W0E-2FDW-docked-complex.pdb,2FDW,D3G,c1cc(cnc1)c2ccc(o2)CN
+1W0E-2FDY-docked-complex.pdb,2FDY,D4G,c1cnccc1SSc2ccncc2
+1W0E-2J0D-docked-complex.pdb,2J0D,ERY,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O
+1W0E-2NNH-docked-complex.pdb,2NNH,9CR,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C

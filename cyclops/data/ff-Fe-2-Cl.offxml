@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SMIRNOFF version="0.3" aromaticity_model="OEAroModel_MDL">
+    <Author>Hruska lab</Author>
+    <Date>2025-10-07</Date>
+  <Bonds version="0.3" 
+            fractional_bondorder_method="AM1-Wiberg"
+            fractional_bondorder_interpolation="linear"
+            > 
+
+<!-- bond and angle k and equilibrium taken from https://doi.org/10.1002/jcc.21922 multiplied by 2 due to difference in how openmm and amber treat the k in harmonic Energy-->
+    <Bond smirks="[#16:1]-[#26:2]" id="b-Fe-S"
+          length="2.565*angstrom"
+          k="78.0*kilocalories_per_mole/angstrom**2"/>
+   
+  </Bonds>
+
+  <Angles version="0.3">
+    <!-- C-S-Fe  -->
+    <Angle smirks="[#6:1]-[#16:2]-[#26:3]" id="a-C-S-Fe"
+           angle="105.885*degree"
+           k="78.0*kilocalories_per_mole/radian**2"/>
+
+  </Angles>
+
+
+
+    <vdW version="0.4" potential="Lennard-Jones-12-6" combining_rules="Lorentz-Berthelot" scale12="0.0" scale13="0.0" scale14="0.5" scale15="1.0" cutoff="9.0 * angstrom ** 1" switch_width="1.0 * angstrom ** 1" periodic_method="cutoff" nonperiodic_method="no-cutoff">
+        <Atom smirks="[#26:1]" epsilon="0.0264 * mole ** -1 * kilocalorie ** 1" id="nFe" rmin_half="1.3488 * angstrom ** 1"></Atom>
+        <!-- <Atom smirks="[#17:1]" epsilon="0.0355910 * mole ** -1 * kilocalorie ** 1" id="nCl" rmin_half="2.238 * angstrom ** 1"></Atom> -->
+    </vdW>
+    <Electrostatics version="0.4" scale12="0.0" scale13="0.0" scale14="0.8333333333" scale15="1.0" cutoff="9.0 * angstrom ** 1" switch_width="0.0 * angstrom ** 1" periodic_potential="Ewald3D-ConductingBoundary" nonperiodic_potential="Coulomb" exception_potential="Coulomb"></Electrostatics>
+    
+
+    <LibraryCharges version="0.3">
+        <LibraryCharge smirks="[#26:1]" charge1="1 * elementary_charge ** 1" id="Fe"></LibraryCharge>
+        <!--<LibraryCharge smirks="[#17:1]" charge1="-1 * elementary_charge ** 1" id="Cl"></LibraryCharge> -->
+    </LibraryCharges>
+
+    
+
+
+</SMIRNOFF>
