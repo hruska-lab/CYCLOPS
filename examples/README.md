@@ -16,5 +16,4 @@ We provide production-ready scripts to automate your workflow:
 
 2. **Parallel Analysis (`cyclops_analysis_parallel.py`)**
    A performance-optimized wrapper for the `cyclops.analysis` module. It leverages Python's `concurrent` module to analyze multiple simulation results in parallel, significantly reducing processing time.
-
-Both files can use a csv similar to `simulation_data.csv`, for which the input files are hosted separately FIND A PLACE FOR THEM AND COME BACK WITH A LINK
+ 

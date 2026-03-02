@@ -18,6 +18,27 @@ import sys
 sys.path.insert(0, os.path.abspath('..'))
 #import cyclops
 
+autodoc_mock_imports = [
+    "openmm", 
+    "openff", 
+    "mdtraj", 
+    "numpy", 
+    "rdkit", 
+    "pdbfixer", 
+    "openbabel", 
+    "openmmforcefields",
+    "Bio",       # for biopython
+    "pandas", 
+    "matplotlib", 
+    "requests",
+    "xdg",       # for pyxdg
+    "rustworkx", 
+    "gemmi", 
+    "torch",     # for pytorch
+    "plip"
+]
+
+
 
 # -- Project information -----------------------------------------------------
 
@@ -102,7 +123,13 @@ html_theme = 'pydata_sphinx_theme'
 # documentation.
 #
 # html_theme_options = {}
+html_context = {
+    "default_mode": "light"
+}
 
+html_theme_options = {
+    "navbar_end": ["navbar-icon-links"], 
+}
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
