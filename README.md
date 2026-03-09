@@ -67,7 +67,7 @@ You can run a simulation by importing and using the `run_heme_simulation` functi
         verbose=True
     )
     
-Additional material with more advanced examples available in the documentation.
+Additional material with more advanced examples available in the [documentation](https://cyclops-md.readthedocs.io/en/latest/).
 ## How to Cite
 
 If you use this software in your research, please cite:
