@@ -72,19 +72,24 @@ Additional material with more advanced examples available in the [documentation]
 
 If you use this software in your research, please cite:
 
-> Grenda, P., Ogos, M., & Hruška, E. (2025). *Automated Structural Refinement of Docked Complexes in Cytochrome P450 Using Molecular Dynamics*. ChemRxiv. https://doi.org/10.26434/chemrxiv-2025-mvv4k-v3
+> Grenda, P.,Suwała, D., Ogos, M., & Hruška, E. (2026). *Automated Structural Refinement of Docked Complexes in Cytochrome P450 Using Molecular Dynamics*. ChemRxiv. https://doi.org/10.26434/chemrxiv-2025-mvv4k-v4
 
 <details>
 <summary>BibTeX</summary>
 
 ```bibtex
-@article{doi:10.26434/chemrxiv-2025-mvv4k-v3,
-  author  = {Grenda, Przemys{\l}aw and Ogos, Martyna and Hru{\v{s}}ka, Eugen},
-  title   = {Automated Structural Refinement of Docked Complexes in Cytochrome P450 Using Molecular Dynamics},
-  journal = {ChemRxiv},
-  year    = {2025},
-  doi     = {10.26434/chemrxiv-2025-mvv4k-v3},
-  url     = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv-2025-mvv4k-v3}
+@article{
+doi:10.26434/chemrxiv-2025-mvv4k/v4,
+author = {Przemysław Grenda  and Dominik Suwała  and Martyna Ogos  and Eugen Hruška },
+title = {Automated Structural Refinement of Docked Complexes in Cytochrome P450 Using Molecular Dynamics},
+journal = {ChemRxiv},
+volume = {2026},
+number = {0312},
+pages = {},
+year = {2026},
+doi = {10.26434/chemrxiv-2025-mvv4k/v4},
+URL = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv-2025-mvv4k/v4},
+eprint = {https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-mvv4k/v4},
 }
 ```
 
